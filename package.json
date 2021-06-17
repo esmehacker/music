@@ -1,0 +1,21 @@
+{
+  "name": "musicarchive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx babel --watch jsx --out-dir www/jsx-compiled --presets @babel/preset-react"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/cli": "^7.8.4"
+  }
+}

@@ -1,0 +1,108 @@
+/*noinspection CssUnknownTarget*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Dancing+Script:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root, .react-container {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 25px 45px;
+    background-color: #222;
+    color: #ddd;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+h1, .audio-player {
+    margin-bottom: 18px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+}
+
+.audio-player {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.audio-player > * {
+    margin: 5px 0;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.exit-button {
+    cursor: pointer;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.audio-player > .exit-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 150ms;
+}
+
+.audio-player:hover > .exit-button {
+    opacity: 1;
+}
+
+.exit-button:hover {
+    color: #aaa;
+}
+
+.exit-button:active {
+    color: #888;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.song-link {
+    text-decoration: none;
+}
+
+.song-link.disabled {
+    font-weight: bold;
+    color: #eee;
+}
+
+.song-link:not(.disabled) {
+    cursor: pointer;
+}
+
+.song-link:not(.disabled):hover {
+    background-color: #444;
+}
+
+.song-link:not(.disabled):active {
+    background-color: #666;
+}
+
+.song-link:not(.disabled):not(:active) {
+    transition: background-color 100ms;
+}
+
+.favourite.song-link::before {
+    content: '★ ';
+    color: gold;
+}
