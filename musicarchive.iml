@@ -9,7 +9,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/venv" />
-      <excludeFolder url="file://$MODULE_DIR$/www/jsx-compiled" />
+      <excludeFolder url="file://$MODULE_DIR$/docs/jsx-compiled" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="react" level="application" />

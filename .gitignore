@@ -1,5 +1,5 @@
 ### Project-specific stuff ###
-www/jsx-compiled/**/*
+docs/jsx-compiled/**/*
 venv/**/*
 
 # Created by https://www.toptal.com/developers/gitignore/api/intellij,node,git

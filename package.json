@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "npx babel --watch jsx --out-dir www/jsx-compiled --presets @babel/preset-react"
+    "watch": "npx babel --watch jsx --out-dir docs/jsx-compiled --presets @babel/preset-react"
   },
   "keywords": [],
   "author": "",
